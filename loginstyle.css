@@ -1,0 +1,162 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+background-image: url('q.webp');
+background-size: cover; /* Ensures the image covers the entire background */
+background-position: center; /* Centers the image */
+
+background-color: black;
+font-family: Arial, sans-serif;
+ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+header {
+    
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#loan-dashboard {
+    background-color: #e7f7e7;
+}
+
+#form-message {
+    color: red;
+}
+
+
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: #f1f1f1;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1000;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.auth-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.auth-btn:hover {
+    background-color: #0056b3;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+
+    .borrow-container {
+        text-align: center;
+    }
+    
+    .borrow-btn {
+        padding: 20px 40px;
+        font-size: 20px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .borrow-btn:hover {
+        background-color: #218838;
+    }
+}
+
+.borrow-container {
+    text-align: center;
+}
+.elsi{
+    text-align: center;
+    background-color: #218838;
+    padding: 20px;
+
+}
+header {
+    display: flex;                 /* Enable flexbox layout */
+    justify-content: center;       /* Horizontally center content */
+    align-items: center;           /* Vertically center content */
+    height: 100px;                 /* Set height of the header */
+    background-color: #f1f1f1;    /* Set background color */
+    position: relative;            /* Optional: for positioning other elements */
+}
+
+.borrow-btn {
+    padding: 20px 40px;
+    font-size: 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.borrow-btn:hover {
+    background-color: #218838;
+}
+
+
+      
+

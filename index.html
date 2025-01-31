@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micro Lending Loan Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Landing Page -->
+    
+        <h1 class="elsi">Welcome to Micro-Lending Platform</h1>
+        
+
+    <!-- Loan Application Form -->
+    <section id="loan-application-form">
+        <h2>Loan Application Form</h2>
+        <form id="loanForm">
+            <input type="text" id="name" placeholder="Full Name" required />
+            <input type="email" id="email" placeholder="Email Address" required />
+            <input type="number" id="amount" placeholder="Loan Amount" required />
+            <input type="number" id="duration" placeholder="Loan Duration (months)" required />
+            
+            <input type="text" id="aadhaarCard" name="aadhaarCard" maxlength="15" required placeholder="Enter Aadhaar Card Number">
+            
+            <input type="text" id="panCard" name="panCard" maxlength="10" required placeholder="Enter PAN Card Number">
+            <button type="submit">Submit Application</button>
+        </form>
+        <p id="form-message"></p>
+    </section>
+
+    <!-- Loan Dashboard (Post Application) -->
+    <section id="loan-dashboard" style="display: none;">
+        <h2>Your Loan Status</h2>
+        <p>Status: <span id="status">Pending</span></p>
+        <p>Remaining Balance: <span id="balance">$0</span></p>
+        <p>Payment Due: <span id="payment-due">$0</span></p>
+        <button onclick="makePayment()">Make Payment</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
